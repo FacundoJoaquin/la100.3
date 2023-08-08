@@ -51,7 +51,7 @@ const Reproductor = () => {
   return (
     <div className="reproductor-container">
       <audio ref={audioRef} controls>
-        <source src="https://radios.lu17.com:8401/lu17" type="audio/mpeg" />
+        <source src="https://radios.lu17.com:8400/1003" type="audio/mpeg" />
       </audio>
 
       <div className="volume-bar-container">
