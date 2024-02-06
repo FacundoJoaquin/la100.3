@@ -5,7 +5,7 @@ import diegoCastro from "../../assets/diegoCastro.png";
 import fabioZapata from "../../assets/fabioZapata.png";
 import elQuintoPoder from "../../assets/elQuintoPoder.png";
 import segundaManana from "../../assets/segundaManana.png";
-import Cotidiano from "../../assets/Cotidiano.png";
+import lorre from "../../assets/lorre.png";
 import laNocheDelSur from "../../assets/laNocheDelSur.png";
 import laGranManana from "../../assets/laGranManana.png";
 import fondoMitre from "../../assets/fondoMitre.jpg";
@@ -55,8 +55,8 @@ const Locutor = () => {
           setTitleToShow("LA SEGUNDA MAÑANA");
           break;
         case currentHour >= 13 && currentHour < 16:
-          setImageToShow(Cotidiano);
-          setTitleToShow("COTIDIANO");
+          setImageToShow(lorre);
+          setTitleToShow("MODO17");
           break;
         case currentHour >= 16 && currentHour < 18:
           setImageToShow(diegoCastro);
